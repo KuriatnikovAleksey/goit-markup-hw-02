@@ -1,0 +1,52 @@
+:root {
+  --primary-logo-color: #2196f3;
+  --secondary-logo-color: #000000;
+  --white-lofo-color: #ffffff;
+}
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: #c0c0c0;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.button {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo.pr-color {
+  color: var(--primary-logo-color);
+}
+.logo.sec-color {
+  color: var(--secondary-logo-color);
+}
+.logo.sec-color-footer {
+  color: var(--white-lofo-color);
+}
